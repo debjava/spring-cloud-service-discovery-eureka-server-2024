@@ -7,10 +7,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-//@EnableDiscoveryClient
-public class SampleApp3Service {
+public class FeignClientForEurekaDiscoveryApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SampleApp3Service.class, args);
+		SpringApplication.run(FeignClientForEurekaDiscoveryApp.class, args);
 	}
 }
